@@ -3,22 +3,27 @@ package obiektowka;
 public class Main {
     //psvm
     public static void main(String[] args) {
-        Samochod toyota = new Samochod("Czerwony",60,"Toyota");
-        toyota.setMoc(150);
-        System.out.println(toyota.getKolor());
+//        Samochod toyota = new Samochod("Czerwony",60,"Toyota");
+//        toyota.setMoc(150);
+//        System.out.println(toyota.getKolor());
+//
+//        Samochod maluch = new Samochod("Czarny", 90, "Fiat");
+//        System.out.println(maluch.getMarka());
+//
+//        Samochod ferrari = new Samochod("Czarny", 90, "Ferrari", 2023);
+//        System.out.println(ferrari.getRokProdukcji());
+//
+//        Samochod test = new Samochod("Czarny", 90, 2023);
+//        System.out.println(test.getRokProdukcji());
 
-        Samochod maluch = new Samochod("Czarny", 90, "Fiat");
-        System.out.println(maluch.getMarka());
 
-        Samochod ferrari = new Samochod("Czarny", 90, "Ferrari", 2023);
-        System.out.println(ferrari.getRokProdukcji());
 
-        Samochod test = new Samochod("Czarny", 90, 2023);
-        System.out.println(test.getRokProdukcji());
 
-        Kot kot = new Kot("Perski", 2);
-        kot.setNazwa("Puszek");
-        kot.setKolor("Niebieski");
+
+
+        Kot kot = new Kot("Perski", 2, "Puszek", "Niebieski");
+        kot.dajGlos();
+
 
     }
 }

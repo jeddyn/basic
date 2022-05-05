@@ -5,7 +5,16 @@ public class Kot extends Zwierze {
     private String rasa;
     private int wiek;
 
+    public Kot(String rasa, int wiek, String nazwa, String kolor) {
+        super(nazwa, kolor);
+        this.rasa = rasa;
+        this.wiek = wiek;
+    }
 
+    @Override
+    public void dajGlos(){
+        System.out.println("Miau miau!");
+    }
 
     public String getRasa() {
         return rasa;
