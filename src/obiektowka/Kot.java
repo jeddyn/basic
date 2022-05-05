@@ -5,10 +5,7 @@ public class Kot extends Zwierze {
     private String rasa;
     private int wiek;
 
-    public Kot(String rasa, int wiek) {
-        this.rasa = rasa;
-        this.wiek = wiek;
-    }
+
 
     public String getRasa() {
         return rasa;

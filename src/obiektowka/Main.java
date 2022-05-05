@@ -16,6 +16,10 @@ public class Main {
         Samochod test = new Samochod("Czarny", 90, 2023);
         System.out.println(test.getRokProdukcji());
 
+        Kot kot = new Kot("Perski", 2);
+        kot.setNazwa("Puszek");
+        kot.setKolor("Niebieski");
+
     }
 }
 
